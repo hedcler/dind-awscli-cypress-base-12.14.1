@@ -1,4 +1,4 @@
-FROM cypress/base:12.14.1
+FROM cypress/browsers:node12.14.1-chrome85-ff81
 
 # Install container dependencies
 RUN apt-get update && \
